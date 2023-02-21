@@ -1,9 +1,8 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9512496&assignment_repo_type=AssignmentRepo)
-# <p align="center">PA4: The Server Moved Out!<p>
+# <p align="center">The Server Moved Out!<p>
 
 **Introduction**
 
-In this programming assignment, you will be adding a class called TCPRequestChannel to extend the IPC capabilities of the client-server implementation in PA3 using the TCP/IP protocol. The client-side and server-side ends of a TCPRequestChannel will reside on different machines.
+TCPRequestChannel is a classes added to extend the IPC capabilities of the client-server implementation using the TCP/IP protocol. The client-side and server-side ends of a TCPRequestChannel will reside on different machines.
 
 Since the communication API (not just the underlying functionality and features) through TCP/IP is different from FIFO, you will also need to restructure the server.cpp and client.cpp as part of this programming assignment:
 
@@ -26,5 +25,3 @@ Since the communication API (not just the underlying functionality and features)
   - [ ] add r option
   - [ ] implement server's primary channel
   - [ ] implement server's accept loop
-
-See the PA4 module on Canvas for further details and assistance.
