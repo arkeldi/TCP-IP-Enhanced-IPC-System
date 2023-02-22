@@ -4,13 +4,13 @@
 
 TCPRequestChannel is a classes added to extend the IPC capabilities of the client-server implementation using the TCP/IP protocol. The client-side and server-side ends of a TCPRequestChannel will reside on different machines.
 
-Since the communication API (not just the underlying functionality and features) through TCP/IP is different from FIFO, you will also need to restructure the server.cpp and client.cpp as part of this programming assignment:
+Since the communication API (not just the underlying functionality and features) through TCP/IP is different from FIFO, I also needed to restructure the server.cpp and client.cpp:
 
 - The server program must be modified to handle incoming requests across the network request channels using the TCP/IP protocol. Specifically, the server must be able to handle multiple request channels from the client residing on a different machine. 
 
-- You must also modify the client to send requests across the network request channels using the TCP/IP protocol.
+- I also had to modify the client to send requests across the network request channels using the TCP/IP protocol.
 
-The pdf attached shows an extensive report of the code.
+The pdf attached is an extensive report of the code.
   
 **Tasks**
 
