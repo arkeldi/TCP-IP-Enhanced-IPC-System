@@ -10,7 +10,8 @@ Since the communication API (not just the underlying functionality and features)
 
 - You must also modify the client to send requests across the network request channels using the TCP/IP protocol.
 
-
+The pdf attached shows an extensive report of the code.
+  
 **Tasks**
 
 - [ ] Implement the TCPRequestChannel class
