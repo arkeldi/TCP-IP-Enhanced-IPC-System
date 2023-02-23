@@ -10,7 +10,7 @@ Since the communication API (not just the underlying functionality and features)
 
 - I also had to modify the client to send requests across the network request channels using the TCP/IP protocol.
 
-The pdf attached shows an extensive report of the code.
+The code analysis document(pdf) I have attached go into depth of the program. 
   
 **Tasks**
 
